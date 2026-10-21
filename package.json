@@ -1,0 +1,3 @@
+{ "name": "kitchen-genome-app", "private": true, "version": "0.1.0",
+  "scripts": { "sync-data": "bash scripts/sync-data.sh", "serve": "python3 -m http.server 5173 -d www",
+    "cap:add:ios": "npx cap add ios", "cap:add:android": "npx cap add android", "cap:sync": "npx cap sync" } }
